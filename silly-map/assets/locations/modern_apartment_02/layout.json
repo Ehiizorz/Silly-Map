@@ -1,0 +1,329 @@
+{
+  "id": "modern_apartment_02",
+  "name": "Modern Studio Apartment",
+  "tags": [
+    "modern",
+    "residential",
+    "cozy"
+  ],
+  "description": "A studio apartment designed for 1-2 people. Consists of a main room (main_room) and a bathroom (bathroom).",
+  "preview": "main_room.webp",
+  "rooms": {
+    "bathroom": {
+      "name": "Bathroom",
+      "grid": {
+        "rows": 10,
+        "cols": 10
+      },
+      "background": "bathroom.webp",
+      "furniture": [
+        {
+          "x": 2,
+          "y": 3,
+          "h": 1,
+          "type": "toilet",
+          "occupiable": true,
+          "w": 2
+        },
+        {
+          "type": "door to the main room",
+          "occupiable": true,
+          "w": 2,
+          "x": 4,
+          "h": 2,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "h": 2,
+          "y": 7,
+          "type": "washing machine",
+          "occupiable": true,
+          "w": 2
+        },
+        {
+          "type": "sink",
+          "occupiable": false,
+          "w": 1,
+          "x": 7,
+          "h": 2,
+          "y": 4
+        },
+        {
+          "h": 2,
+          "y": 4,
+          "x": 8,
+          "w": 2,
+          "type": "mirror",
+          "occupiable": false
+        },
+        {
+          "occupiable": false,
+          "type": "clothes dryer",
+          "w": 1,
+          "x": 1,
+          "h": 2,
+          "y": 4
+        },
+        {
+          "h": 1,
+          "y": 3,
+          "x": 4,
+          "w": 2,
+          "occupiable": false,
+          "type": "laundry basket"
+        },
+        {
+          "occupiable": false,
+          "type": "plant",
+          "w": 1,
+          "x": 6,
+          "y": 2,
+          "h": 2
+        },
+        {
+          "x": 4,
+          "y": 1,
+          "h": 2,
+          "type": "window",
+          "occupiable": false,
+          "w": 2
+        },
+        {
+          "h": 1,
+          "y": 1,
+          "x": 6,
+          "w": 3,
+          "type": "shelves with items",
+          "occupiable": false
+        },
+        {
+          "x": 6,
+          "h": 2,
+          "y": 4,
+          "type": "rug",
+          "occupiable": false,
+          "w": 1
+        },
+        {
+          "y": 6,
+          "h": 2,
+          "x": 2,
+          "w": 2,
+          "occupiable": true,
+          "type": "shower stall"
+        },
+        {
+          "h": 2,
+          "y": 2,
+          "x": 7,
+          "w": 2,
+          "occupiable": false,
+          "type": "cabinet"
+        },
+        {
+          "w": 2,
+          "occupiable": false,
+          "type": "cabinet",
+          "h": 1,
+          "y": 6,
+          "x": 7
+        }
+      ]
+    },
+    "main_room": {
+      "grid": {
+        "rows": 10,
+        "cols": 10
+      },
+      "name": "Main Room",
+      "furniture": [
+        {
+          "w": 2,
+          "occupiable": false,
+          "type": "TV",
+          "h": 2,
+          "y": 8,
+          "x": 4
+        },
+        {
+          "occupiable": false,
+          "type": "bookcase",
+          "w": 2,
+          "x": 2,
+          "y": 8,
+          "h": 1
+        },
+        {
+          "type": "desk with laptop",
+          "occupiable": false,
+          "w": 1,
+          "x": 1,
+          "h": 2,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "h": 1,
+          "y": 7,
+          "occupiable": true,
+          "type": "computer chair",
+          "w": 1
+        },
+        {
+          "w": 2,
+          "type": "bed",
+          "occupiable": true,
+          "y": 2,
+          "h": 2,
+          "x": 2
+        },
+        {
+          "h": 1,
+          "y": 1,
+          "x": 4,
+          "w": 1,
+          "occupiable": false,
+          "type": "nightstand"
+        },
+        {
+          "w": 1,
+          "occupiable": false,
+          "type": "nightstand",
+          "h": 1,
+          "y": 1,
+          "x": 2
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "h": 2,
+          "type": "posters on the wall",
+          "occupiable": false,
+          "w": 2
+        },
+        {
+          "h": 2,
+          "y": 1,
+          "x": 1,
+          "w": 1,
+          "type": "bookcase",
+          "occupiable": false
+        },
+        {
+          "x": 0,
+          "h": 2,
+          "y": 4,
+          "occupiable": false,
+          "type": "window",
+          "w": 2
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "h": 1,
+          "type": "table",
+          "occupiable": false,
+          "w": 1
+        },
+        {
+          "w": 2,
+          "occupiable": false,
+          "type": "sofa",
+          "y": 5,
+          "h": 1,
+          "x": 4
+        },
+        {
+          "w": 1,
+          "occupiable": true,
+          "type": "sofa",
+          "h": 1,
+          "y": 6,
+          "x": 5
+        },
+        {
+          "y": 2,
+          "h": 1,
+          "x": 6,
+          "w": 1,
+          "occupiable": true,
+          "type": "chair"
+        },
+        {
+          "w": 1,
+          "type": "chair",
+          "occupiable": true,
+          "y": 4,
+          "h": 1,
+          "x": 6
+        },
+        {
+          "x": 6,
+          "y": 3,
+          "h": 1,
+          "type": "table",
+          "occupiable": true,
+          "w": 1
+        },
+        {
+          "type": "stove with oven",
+          "occupiable": false,
+          "w": 1,
+          "x": 8,
+          "h": 1,
+          "y": 3
+        },
+        {
+          "occupiable": false,
+          "type": "fridge",
+          "w": 1,
+          "x": 8,
+          "h": 1,
+          "y": 6
+        },
+        {
+          "w": 1,
+          "occupiable": false,
+          "type": "kitchen sin",
+          "y": 4,
+          "h": 2,
+          "x": 8
+        },
+        {
+          "w": 3,
+          "occupiable": false,
+          "type": "kitchen cabinets with accessories",
+          "y": 0,
+          "h": 3,
+          "x": 7
+        },
+        {
+          "occupiable": false,
+          "type": "clothes rack and shoe shelves",
+          "w": 2,
+          "x": 8,
+          "h": 2,
+          "y": 7
+        },
+        {
+          "y": 8,
+          "h": 1,
+          "x": 7,
+          "w": 1,
+          "type": "exit",
+          "occupiable": true
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "h": 2,
+          "type": "door to the bathroom",
+          "occupiable": true,
+          "w": 1
+        }
+      ],
+      "background": "main_room.webp"
+    }
+  }
+}

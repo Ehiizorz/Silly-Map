@@ -1,0 +1,718 @@
+{
+  "id": "modern_apartment_01",
+  "name": "Modern Apartment",
+  "tags": [
+    "modern",
+    "residential",
+    "cozy"
+  ],
+  "description": "A multi-room apartment. Consists of a living room (living_room), kitchen (kitchen), bathroom (bathroom), laundry/pantry (laundry_pantry), single bedroom (bedroom), and a double bedroom (bedroom_for_two).",
+  "preview": "living_room.webp",
+  "rooms": {
+    "bed_room": {
+      "background": "bed_room.webp",
+      "grid": {
+        "cols": 10,
+        "rows": 10
+      },
+      "furniture": [
+        {
+          "y": 2,
+          "h": 4,
+          "occupiable": true,
+          "type": "bed",
+          "x": 1,
+          "w": 3
+        },
+        {
+          "type": "bookcase",
+          "occupiable": false,
+          "w": 3,
+          "x": 6,
+          "h": 1,
+          "y": 2
+        },
+        {
+          "occupiable": false,
+          "type": "window",
+          "w": 2,
+          "x": 4,
+          "y": 1,
+          "h": 1
+        },
+        {
+          "y": 7,
+          "h": 2,
+          "occupiable": false,
+          "type": "clothes and other things",
+          "x": 6,
+          "w": 3
+        },
+        {
+          "occupiable": true,
+          "type": "computer chair",
+          "w": 1,
+          "x": 6,
+          "y": 5,
+          "h": 1
+        },
+        {
+          "x": 7,
+          "w": 2,
+          "occupiable": false,
+          "type": "computer on the desk",
+          "y": 4,
+          "h": 3
+        },
+        {
+          "type": "clothing closet",
+          "occupiable": false,
+          "w": 3,
+          "x": 0,
+          "h": 3,
+          "y": 7
+        },
+        {
+          "h": 5,
+          "y": 1,
+          "type": "anime posters on the wall",
+          "occupiable": false,
+          "x": 0,
+          "w": 1
+        },
+        {
+          "y": 0,
+          "h": 2,
+          "w": 2,
+          "x": 1,
+          "occupiable": false,
+          "type": "anime posters on the wall"
+        },
+        {
+          "y": 4,
+          "h": 3,
+          "x": 9,
+          "w": 1,
+          "occupiable": false,
+          "type": "videogame posters on the wall"
+        },
+        {
+          "type": "door to the living room",
+          "occupiable": true,
+          "x": 4,
+          "w": 2,
+          "h": 1,
+          "y": 9
+        }
+      ],
+      "name": "Bed Room"
+    },
+    "bed_room_for_two": {
+      "grid": {
+        "cols": 10,
+        "rows": 10
+      },
+      "furniture": [
+        {
+          "y": 1,
+          "h": 5,
+          "x": 3,
+          "w": 4,
+          "occupiable": true,
+          "type": "bed"
+        },
+        {
+          "occupiable": true,
+          "type": "armchair",
+          "x": 1,
+          "w": 1,
+          "y": 7,
+          "h": 1
+        },
+        {
+          "w": 4,
+          "x": 3,
+          "occupiable": false,
+          "type": "bookcase",
+          "y": 8,
+          "h": 1
+        },
+        {
+          "w": 1,
+          "x": 9,
+          "type": "door to living room",
+          "occupiable": true,
+          "h": 2,
+          "y": 5
+        },
+        {
+          "h": 4,
+          "y": 2,
+          "type": "window",
+          "occupiable": false,
+          "w": 1,
+          "x": 0
+        },
+        {
+          "y": 1,
+          "h": 1,
+          "w": 1,
+          "x": 7,
+          "occupiable": false,
+          "type": "nightstand"
+        },
+        {
+          "x": 2,
+          "w": 1,
+          "type": "nightstand",
+          "occupiable": false,
+          "h": 1,
+          "y": 1
+        },
+        {
+          "h": 3,
+          "y": 3,
+          "type": "chest of drawers",
+          "occupiable": false,
+          "x": 1,
+          "w": 1
+        },
+        {
+          "y": 2,
+          "h": 1,
+          "occupiable": false,
+          "type": "plant",
+          "w": 1,
+          "x": 1
+        },
+        {
+          "h": 3,
+          "y": 1,
+          "x": 8,
+          "w": 1,
+          "type": "clothing closet",
+          "occupiable": false
+        },
+        {
+          "y": 9,
+          "h": 1,
+          "occupiable": false,
+          "type": "painting on the wall",
+          "w": 4,
+          "x": 4
+        }
+      ],
+      "background": "bed_room_for_two.webp",
+      "name": "Bed Room For Two"
+    },
+    "living_room": {
+      "name": "Living Room",
+      "furniture": [
+        {
+          "w": 1,
+          "x": 2,
+          "type": "sofa",
+          "occupiable": true,
+          "h": 3,
+          "y": 2
+        },
+        {
+          "h": 1,
+          "y": 2,
+          "type": "sofa",
+          "occupiable": true,
+          "w": 2,
+          "x": 3
+        },
+        {
+          "y": 2,
+          "h": 1,
+          "x": 7,
+          "w": 1,
+          "occupiable": true,
+          "type": "armchair"
+        },
+        {
+          "h": 2,
+          "y": 5,
+          "type": "tv",
+          "occupiable": false,
+          "x": 8,
+          "w": 1
+        },
+        {
+          "h": 3,
+          "y": 5,
+          "type": "bookcase",
+          "occupiable": false,
+          "w": 1,
+          "x": 1
+        },
+        {
+          "h": 2,
+          "y": 8,
+          "type": "exit",
+          "occupiable": true,
+          "x": 2,
+          "w": 1
+        },
+        {
+          "h": 1,
+          "y": 1,
+          "type": "entrance to other rooms",
+          "occupiable": true,
+          "x": 6,
+          "w": 1
+        },
+        {
+          "h": 3,
+          "y": 3,
+          "type": "table",
+          "occupiable": false,
+          "x": 4,
+          "w": 1
+        },
+        {
+          "x": 8,
+          "w": 1,
+          "type": "window",
+          "occupiable": false,
+          "h": 2,
+          "y": 2
+        },
+        {
+          "h": 1,
+          "y": 6,
+          "x": 2,
+          "w": 1,
+          "type": "plant",
+          "occupiable": false
+        },
+        {
+          "x": 8,
+          "w": 1,
+          "type": "plant",
+          "occupiable": false,
+          "h": 1,
+          "y": 4
+        },
+        {
+          "h": 1,
+          "y": 8,
+          "type": "plant",
+          "occupiable": false,
+          "x": 4,
+          "w": 1
+        },
+        {
+          "y": 7,
+          "h": 2,
+          "x": 7,
+          "w": 2,
+          "occupiable": false,
+          "type": "boxes and other things"
+        }
+      ],
+      "background": "living_room.webp",
+      "grid": {
+        "cols": 10,
+        "rows": 10
+      }
+    },
+    "bathroom": {
+      "grid": {
+        "rows": 10,
+        "cols": 10
+      },
+      "furniture": [
+        {
+          "y": 1,
+          "h": 2,
+          "w": 4,
+          "x": 3,
+          "occupiable": true,
+          "type": "bath"
+        },
+        {
+          "type": "rug",
+          "occupiable": true,
+          "w": 2,
+          "x": 4,
+          "h": 2,
+          "y": 4
+        },
+        {
+          "h": 2,
+          "y": 8,
+          "type": "door to the living room",
+          "occupiable": true,
+          "w": 2,
+          "x": 7
+        },
+        {
+          "y": 7,
+          "h": 2,
+          "occupiable": true,
+          "type": "shower stall",
+          "w": 2,
+          "x": 4
+        },
+        {
+          "y": 3,
+          "h": 2,
+          "occupiable": false,
+          "type": "closet with towels and bathrobes",
+          "w": 2,
+          "x": 8
+        },
+        {
+          "w": 2,
+          "x": 7,
+          "occupiable": true,
+          "type": "toilet",
+          "y": 2,
+          "h": 1
+        },
+        {
+          "y": 2,
+          "h": 1,
+          "occupiable": false,
+          "type": "laundry basket",
+          "w": 1,
+          "x": 2
+        },
+        {
+          "occupiable": false,
+          "type": "plant",
+          "x": 1,
+          "w": 2,
+          "y": 8,
+          "h": 1
+        },
+        {
+          "x": 0,
+          "w": 2,
+          "occupiable": false,
+          "type": "mirror",
+          "y": 4,
+          "h": 3
+        },
+        {
+          "x": 2,
+          "w": 1,
+          "type": "sink",
+          "occupiable": false,
+          "h": 3,
+          "y": 4
+        },
+        {
+          "y": 1,
+          "h": 3,
+          "occupiable": false,
+          "type": "shelf with essential oils and plants",
+          "x": 1,
+          "w": 1
+        }
+      ],
+      "background": "bathroom.webp",
+      "name": "Bathroom"
+    },
+    "laundry_pantry": {
+      "name": "Laundry Pantry",
+      "grid": {
+        "cols": 10,
+        "rows": 10
+      },
+      "furniture": [
+        {
+          "h": 2,
+          "y": 8,
+          "w": 2,
+          "x": 4,
+          "type": "door to the living room",
+          "occupiable": true
+        },
+        {
+          "y": 3,
+          "h": 6,
+          "occupiable": false,
+          "type": "storage",
+          "w": 3,
+          "x": 7
+        },
+        {
+          "w": 4,
+          "x": 3,
+          "type": "rug",
+          "occupiable": true,
+          "h": 2,
+          "y": 5
+        },
+        {
+          "type": "sink",
+          "occupiable": false,
+          "w": 1,
+          "x": 6,
+          "h": 2,
+          "y": 2
+        },
+        {
+          "h": 2,
+          "y": 0,
+          "x": 4,
+          "w": 2,
+          "type": "window",
+          "occupiable": false
+        },
+        {
+          "occupiable": true,
+          "type": "ladder",
+          "w": 1,
+          "x": 6,
+          "y": 7,
+          "h": 2
+        },
+        {
+          "occupiable": false,
+          "type": "laundry basket",
+          "x": 3,
+          "w": 1,
+          "y": 7,
+          "h": 1
+        },
+        {
+          "type": "drying rack",
+          "occupiable": false,
+          "x": 1,
+          "w": 1,
+          "h": 3,
+          "y": 5
+        },
+        {
+          "occupiable": false,
+          "type": "plant",
+          "x": 1,
+          "w": 2,
+          "y": 8,
+          "h": 1
+        },
+        {
+          "x": 2,
+          "w": 1,
+          "occupiable": false,
+          "type": "ironing board",
+          "y": 4,
+          "h": 3
+        },
+        {
+          "x": 3,
+          "w": 2,
+          "type": "washing machine",
+          "occupiable": true,
+          "h": 2,
+          "y": 2
+        },
+        {
+          "occupiable": true,
+          "type": "washing machine",
+          "x": 5,
+          "w": 1,
+          "y": 2,
+          "h": 2
+        },
+        {
+          "w": 2,
+          "x": 1,
+          "occupiable": false,
+          "type": "shelves with items",
+          "y": 1,
+          "h": 3
+        }
+      ],
+      "background": "laundry_pantry.webp"
+    },
+    "kitchen": {
+      "background": "kitchen.webp",
+      "grid": {
+        "rows": 10,
+        "cols": 10
+      },
+      "furniture": [
+        {
+          "x": 7,
+          "w": 2,
+          "type": "fridge",
+          "occupiable": false,
+          "h": 2,
+          "y": 2
+        },
+        {
+          "h": 2,
+          "y": 0,
+          "w": 2,
+          "x": 4,
+          "type": "window",
+          "occupiable": false
+        },
+        {
+          "y": 5,
+          "h": 1,
+          "w": 1,
+          "x": 2,
+          "occupiable": false,
+          "type": "kitchen sink"
+        },
+        {
+          "x": 2,
+          "w": 1,
+          "occupiable": false,
+          "type": "cutting board on the kitchen cabinet",
+          "y": 6,
+          "h": 1
+        },
+        {
+          "type": "kitchen cabinet",
+          "occupiable": false,
+          "w": 2,
+          "x": 2,
+          "h": 2,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "w": 2,
+          "occupiable": false,
+          "type": "kitchen cabinet",
+          "y": 3,
+          "h": 1
+        },
+        {
+          "w": 1,
+          "x": 2,
+          "occupiable": false,
+          "type": "plates on the kitchen cabinet",
+          "y": 4,
+          "h": 1
+        },
+        {
+          "h": 2,
+          "y": 2,
+          "type": "stove with oven",
+          "occupiable": false,
+          "w": 2,
+          "x": 4
+        },
+        {
+          "x": 1,
+          "w": 3,
+          "type": "kitchen items",
+          "occupiable": false,
+          "h": 1,
+          "y": 2
+        },
+        {
+          "w": 1,
+          "x": 1,
+          "occupiable": false,
+          "type": "kitchen items",
+          "y": 3,
+          "h": 6
+        },
+        {
+          "occupiable": false,
+          "type": "cookbook on the kitchen cabinet",
+          "w": 1,
+          "x": 6,
+          "y": 3,
+          "h": 1
+        },
+        {
+          "h": 1,
+          "y": 7,
+          "type": "chair",
+          "occupiable": true,
+          "w": 1,
+          "x": 7
+        },
+        {
+          "x": 6,
+          "w": 1,
+          "occupiable": true,
+          "type": "chair",
+          "y": 6,
+          "h": 1
+        },
+        {
+          "w": 1,
+          "x": 7,
+          "type": "chair",
+          "occupiable": true,
+          "h": 1,
+          "y": 5
+        },
+        {
+          "y": 6,
+          "h": 1,
+          "w": 1,
+          "x": 7,
+          "occupiable": false,
+          "type": "table"
+        },
+        {
+          "x": 4,
+          "w": 2,
+          "occupiable": true,
+          "type": "door to the living room",
+          "y": 8,
+          "h": 2
+        },
+        {
+          "w": 4,
+          "x": 0,
+          "type": "wall with poster",
+          "occupiable": false,
+          "h": 2,
+          "y": 0
+        },
+        {
+          "y": 4,
+          "h": 5,
+          "x": 8,
+          "w": 2,
+          "occupiable": false,
+          "type": "wall with painting"
+        },
+        {
+          "x": 6,
+          "w": 4,
+          "type": "wall with painting",
+          "occupiable": false,
+          "h": 2,
+          "y": 0
+        },
+        {
+          "y": 2,
+          "h": 1,
+          "occupiable": false,
+          "type": "kitchen items",
+          "x": 6,
+          "w": 1
+        },
+        {
+          "h": 2,
+          "y": 2,
+          "w": 1,
+          "x": 9,
+          "type": "wall",
+          "occupiable": false
+        }
+      ],
+      "name": "Kitchen"
+    }
+  },
+  "authorId": "joyKmg8eBbSKOl2fslWzD90332E3",
+  "authorName": "Nero",
+  "originalId": "modern_apartment_01",
+  "originalAuthorId": "joyKmg8eBbSKOl2fslWzD90332E3",
+  "originalAuthorName": "Nero"
+}
